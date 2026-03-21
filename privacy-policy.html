@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - DocVault</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #111113;
+      color: #fafafa;
+      line-height: 1.7;
+      padding: 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #323238;
+    }
+    .logo { font-size: 48px; margin-bottom: 12px; }
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #fafafa;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: #a1a1aa;
+      font-weight: 500;
+    }
+    .effective-date {
+      display: inline-block;
+      background: rgba(74, 222, 128, 0.1);
+      color: #4ade80;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-top: 12px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fafafa;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      padding-left: 12px;
+      border-left: 3px solid #4ade80;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fafafa;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 14px;
+      color: #a1a1aa;
+      margin-bottom: 14px;
+    }
+    ul {
+      margin-bottom: 14px;
+      padding-left: 20px;
+    }
+    li {
+      font-size: 14px;
+      color: #a1a1aa;
+      margin-bottom: 6px;
+    }
+    .card {
+      background: #1c1c20;
+      border: 1px solid #323238;
+      border-radius: 14px;
+      padding: 18px;
+      margin: 16px 0;
+    }
+    .highlight {
+      color: #4ade80;
+      font-weight: 600;
+    }
+    a {
+      color: #4ade80;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      padding-top: 24px;
+      border-top: 1px solid #323238;
+      font-size: 12px;
+      color: #5a5a65;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">📑</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">DocVault — Personal Document Organizer</p>
+      <span class="effective-date">Effective: March 21, 2026</span>
+    </div>
+
+    <p>DocVault ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how we handle your information when you use our mobile application.</p>
+
+    <h2>1. Information We Collect</h2>
+
+    <h3>Information You Provide</h3>
+    <ul>
+      <li><span class="highlight">Profile names and emojis</span> — names you give to profiles (e.g., "Dad", "Mom")</li>
+      <li><span class="highlight">Document data</span> — document names, notes, and categories you create</li>
+      <li><span class="highlight">Photos and files</span> — images you capture or import as document pages</li>
+      <li><span class="highlight">Profile pictures</span> — photos you set as profile avatars</li>
+    </ul>
+
+    <h3>Automatically Collected</h3>
+    <ul>
+      <li><span class="highlight">OCR text</span> — text extracted from scanned images for search functionality (processed on-device)</li>
+      <li><span class="highlight">Google account info</span> — name, email, and profile photo when you sign in for backup</li>
+    </ul>
+
+    <div class="card">
+      <p style="margin-bottom: 0;"><strong style="color: #fafafa;">Important:</strong> All your documents and data are stored <span class="highlight">locally on your device</span>. We do not have access to your files, and they are never uploaded to our servers.</p>
+    </div>
+
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+      <li>To organize and display your documents within the app</li>
+      <li>To enable full-text search across your documents via OCR</li>
+      <li>To back up your data to <strong>your own Google Drive</strong> (only when you choose to)</li>
+      <li>To restore your data from your Google Drive backup</li>
+      <li>To show relevant advertisements (via Google AdMob)</li>
+    </ul>
+
+    <h2>3. Google Drive Backup</h2>
+    <p>When you enable cloud backup:</p>
+    <ul>
+      <li>Your database and document files are uploaded to <strong>your personal Google Drive</strong></li>
+      <li>Files are stored in a "DocVault Backups" folder visible in your Drive</li>
+      <li>We use the <code>drive.file</code> scope — we can only access files created by DocVault</li>
+      <li>We <strong>cannot</strong> access your other Google Drive files</li>
+      <li>You can delete the backup at any time from your Google Drive</li>
+    </ul>
+
+    <h2>4. Third-Party Services</h2>
+
+    <h3>Google AdMob</h3>
+    <p>We use Google AdMob to display advertisements. AdMob may collect device identifiers and usage data to serve relevant ads. You can opt out of personalized ads in your device settings.</p>
+
+    <h3>Google Sign-In</h3>
+    <p>We use Google Sign-In solely for authentication to enable Google Drive backup. We only access your basic profile information (name, email, photo).</p>
+
+    <h3>ML Kit (OCR)</h3>
+    <p>Text recognition is performed <strong>entirely on-device</strong> using Google ML Kit. No images are sent to any server for OCR processing.</p>
+
+    <h2>5. Data Storage &amp; Security</h2>
+    <ul>
+      <li>All data is stored locally on your device using SQLite</li>
+      <li>Biometric authentication (fingerprint/face) can be enabled to lock the app</li>
+      <li>Google Drive backups use your Google account's security</li>
+      <li>We do not operate any servers that store your data</li>
+    </ul>
+
+    <h2>6. In-App Purchases</h2>
+    <p>We offer ad-removal subscriptions and one-time purchases. Payment processing is handled entirely by Google Play. We do not collect or store any payment information.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>DocVault is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal data, please contact us.</p>
+
+    <h2>8. Your Rights</h2>
+    <ul>
+      <li><strong>Delete your data:</strong> Uninstall the app to remove all local data</li>
+      <li><strong>Delete backups:</strong> Remove the "DocVault Backups" folder from your Google Drive</li>
+      <li><strong>Revoke access:</strong> Remove DocVault from your Google account's connected apps</li>
+      <li><strong>Opt out of ads:</strong> Purchase an ad-free plan or adjust device ad settings</li>
+    </ul>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective" date.</p>
+
+    <h2>10. Contact Us</h2>
+    <div class="card">
+      <p style="margin-bottom: 4px;"><strong style="color: #fafafa;">Email:</strong> <a href="mailto:usefuldailyapps@gmail.com">usefuldailyapps@gmail.com</a></p>
+      <p style="margin-bottom: 0;"><strong style="color: #fafafa;">GitHub:</strong> <a href="https://github.com/usefuldailyapps-sys/docvault">github.com/usefuldailyapps-sys/docvault</a></p>
+    </div>
+
+    <div class="footer">
+      <p>DocVault &copy; 2026. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
